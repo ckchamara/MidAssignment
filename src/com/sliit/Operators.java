@@ -9,15 +9,15 @@ class Operators extends user implements Calculations {
 
     public Operators(String name, String email, int empNo, String desig) {
         super(name, email);
-        this.empNo = empNo;
         this.desig = desig;
+        this.empNo = empNo;
     }
 
     public void printDetails() {
         System.out.println("Operator name  : " + this.name);
-        System.out.println("Operator Email  : " + this.email);
         System.out.println("Operator Employee number  : " + this.empNo);
         System.out.println("Operator Designation  : " + this.desig);
+        System.out.println("Operator Email  : " + this.email);
         System.out.println("\n\n\n");
 
     }
